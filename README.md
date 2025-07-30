@@ -108,7 +108,7 @@ docker tag trader-moni-payment-service trader-moni/payment-service
 docker tag trader-moni-notification-service trader-moni/notification-service
 
 # Load images to minikube (if using minikube)
-minikube image load trader-moni/gateway-service:latest
+minikube image load  trader-moni/gateway-service:latest
 minikube image load  trader-moni/user-service:latest
 minikube image load  trader-moni/order-service:latest
 minikube image load  trader-moni/payment-service:latest
