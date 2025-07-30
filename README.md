@@ -108,11 +108,11 @@ docker tag trader-moni-payment-service trader-moni/payment-service
 docker tag trader-moni-notification-service trader-moni/notification-service
 
 # Load images to minikube (if using minikube)
-minikube image load polyglot/gateway-service:latest
-minikube image load polyglot/user-service:latest
-minikube image load polyglot/order-service:latest
-minikube image load polyglot/payment-service:latest
-minikube image load polyglot/notification-service:latest
+minikube image load trader-moni/gateway-service:latest
+minikube image load  trader-moni/user-service:latest
+minikube image load  trader-moni/order-service:latest
+minikube image load  trader-moni/payment-service:latest
+minikube image load  trader-moni/notification-service:latest
 
 # Deploy to Kubernetes
 cd k8s
